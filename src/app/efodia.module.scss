@@ -36,6 +36,7 @@ div.main {
         user-select: none;
         -webkit-user-select: none;
         touch-action: manipulation;
+        text-decoration: none;
     }
 
 
@@ -53,7 +54,7 @@ div.main {
         text-align: center;
         width: 100%;
         max-width: 600px;
-        padding: 20px;
+        padding: 25px;
         border: 1px solid #0000002f;
         border-radius: 10px;
         margin-bottom: 20px;
