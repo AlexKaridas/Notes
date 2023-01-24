@@ -1,4 +1,5 @@
 import styles from "./page.module.scss";
+import Link from "next/link";
 
 export default function Home() {
 
@@ -14,6 +15,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      <Link href="/efodia" className={styles.button}><div className={styles.button}>Efodiastiki</div></Link>
       <article>
         <h2>Τι είναι ηλεκτρονική υγεία?</h2>
         <p>
